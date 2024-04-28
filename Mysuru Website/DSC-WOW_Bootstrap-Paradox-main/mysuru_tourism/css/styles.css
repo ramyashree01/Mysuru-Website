@@ -1,0 +1,343 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-img{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h-card{
+  width: 18rem;
+}
+
+/* Navigation Bar */
+.my-navbar{
+  padding: 40px 100px;
+}
+.navbar-brand{
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+.navbar-items{
+  font-size: 1.25rem;
+}
+.nav-item{
+  margin-left: 30px;
+}
+
+/* Footer */
+footer{
+  background-color: #222831;
+  color: #e8e8e8;
+  font-size: 1.15rem;
+  padding: 100px 30px 50px;
+}
+.footer-div{
+  padding: 0 50px;
+}
+.footer-h5{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.footer-a{
+  color: #e8e8e8;
+  display: block;
+  margin-bottom: 20px;
+}
+.footer-a:hover{
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer-p{
+  margin-top: 50px;
+}
+.social-media{
+  font-size: 2.2rem;
+  margin-right: 20px;
+}
+
+
+/* Home */
+.img1{
+  background-image: url("images/Mysore_palace1.jpg");
+}
+.home-know-more{
+  margin-top: 20px;
+  text-align: center;
+}
+.home-choose-us-divs{
+  margin: 100px auto 80px;
+  width: 1200px;
+}
+.home-choose-us-h1{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.home-choose-us-h4{
+  margin-bottom: 10px;
+}
+.choose-us-icons{
+  color: #dc3545;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.home-hr{
+  border: dotted 10px #495057;
+  border-bottom: 0;
+  width: 120px;
+}
+.home-hotels-div{
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 80px 30px 0 80px;
+  width: 1200px;
+}
+.hotels-h1{
+  font-size: 3rem;
+  margin-bottom: 80px;
+}
+.home-hotels-row{
+  margin-bottom: 50px;
+}
+.hotel-img{
+  height: 215px;
+  width: 285px;
+}
+.ca{
+  text-align: center;
+}
+
+/* About */
+.img2{
+  background-image: url("images/Mysore_palace3.jpg");
+}
+.about-div{
+  margin: 100px auto 80px;
+  width: 1100px;
+}
+.about-h1{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.about-card{
+  width: 450px;
+  margin: 0 auto;
+}
+.about-row{
+  margin-bottom: 50px;
+}
+.about-card-header{
+  background-color: #fff;
+}
+/* Hotels and Tours */
+.img3{
+  background-image: url("images/beautiful_hotel.jpg");
+}
+.hotels-page-form{
+  margin: 100px auto;
+  width: 1000px;
+  text-align: center;
+}
+.hotel-page-h1{
+  margin-bottom: 50px;
+}
+.price-slider{
+  font-size: 1.15rem;
+  margin: 30px 0;
+  text-align: left;
+}
+.slider-label{
+   color: #495057;
+   font-size: 1.35rem;
+   margin-bottom: 20px;
+}
+.hotel-cards{
+  margin: 0 auto 100px;
+  width: 1000px;
+}
+.hotel-rows{
+  margin-bottom: 80px;
+}
+.img4{
+  background-image: url("images/Mysore_palace4.jpg");
+}
+.tour-cards{
+  margin-top: 100px;
+}
+.tour-h1{
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* Contact */
+.img5{
+  background-image: url("images/Mysore_palace2.jpg")
+}
+.contact-content{
+  margin: 100px auto;
+  width: 1200px;
+  text-align: center;
+}
+.contact-h1{
+  margin-bottom: 50px;
+}
+.contact-info{
+  margin-bottom: 50px;
+}
+.gmap-div{
+  padding: 0 20px 65px;
+}
+.gmap{
+  width: 100%;
+  height: 100%;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px){
+  /* background image */
+  .bg-img{
+    height: 70%;
+  }
+  /* Navbar */
+  .my-navbar{
+    padding: 20px 30px;
+  }
+  .nav1{
+    background-color: #000;
+    opacity: 0.8;
+  }
+  .nav2{
+    background-color: #fff;
+    opacity: 0.8;
+  }
+  /* Footer */
+  footer{
+    text-align: center;
+  }
+  .footer-div{
+    margin-bottom: 80px;
+  }
+  .footer-a{
+    margin-bottom: 10px;
+  }
+  .footer-p{
+    margin-top: 0;
+  }
+  /* Home */
+  .home-choose-us-h4{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .choose-us-div{
+    margin-bottom: 30px;
+  }
+  .home-hotels-div{
+    margin-top: 80px;
+  }
+  .home-hotels-row{
+    margin-bottom: 0;
+  }
+  .h-card{
+    margin: 0 auto 50px;
+  }
+  /* Hotel and Tours */
+  .hotel-rows{
+    margin-bottom: 0;
+  }
+  /* Contact */
+  .contact-h1{
+    text-align: center;
+  }
+  .margin-b-sm{
+    margin-bottom: 30px;
+  }
+  .gmap{
+    margin: 30px auto 0;
+    height: 300px;
+  }
+}
+
+
+/* footer */
+@media (max-width: 1300px){
+  .footer-div{
+    padding: 0 30px;
+  }
+}
+@media(max-width: 1000px){
+  .footer-div{
+    margin-bottom: 50px;
+  }
+}
+
+/* Home */
+@media (max-width: 1220px){
+  .home-choose-us-divs{
+    width: auto;
+  }
+  .choose-us-div{
+    padding: 0 30px;
+  }
+  .home-hotels-div{
+    padding: 0 30px;
+    width: auto;
+  }
+}
+@media(max-width: 960px) and (min-width: 768px){
+  .h-card{
+  width: 15rem;
+  }
+  .hotel-img{
+    width: 15rem;
+  }
+}
+
+/* About */
+@media (max-width: 1100px){
+  .about-div{
+    padding: 0 30px;
+    width: auto;
+  }
+}
+@media (max-width: 992px){
+  .margin-b{
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1050px) and (min-width: 768px){
+  .about-card{
+    width: 350px;
+  }
+}
+@media (max-width: 550px){
+  .about-card{
+    width: auto;
+  }
+}
+
+/* Hotel and Tours */
+@media (max-width: 1000px){
+  .hotels-page-form{
+    padding: 0 50px;
+    width: auto;
+  }
+  .hotel-cards{
+    margin: 100px 20px 50px;
+    width: auto;
+  }
+}
+
+/* Contact */
+@media (max-width: 1200px){
+  .contact-content{
+    padding: 0 30px;
+    width: auto;
+    text-align: left;
+  }
+}
